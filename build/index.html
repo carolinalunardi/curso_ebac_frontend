@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria de Artes</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/main.css">
+
+</head>
+<body>
+    <header>
+        <div class="container container-flex">
+            <h1>Galeria de Artes</h1>
+        </div>
+    </header>
+    
+    <section>
+        <div class="container">
+            <h2>Quadros</h2>
+            <ul class="container-flex lista-quadros">
+                <li>
+                    <h3>Coruja Voando</h3>
+                    <img src="./images/bird-ga5d9ed257_1920.jpg" alt="coruja voando">
+                    <p>Fotografia do artista Fulano disponível nos tamanhos 30x40cm, 40x60cm e 50x100cm.</p>
+                    <button type="button">Tenho interesse</button>
+                </li>
+                <li class="item-central">
+                    <h3>Patos e Garças</h3>
+                    <img src="./images/birds-g6b63afc7a_1920.jpg" alt="patos e garças no lago">
+                    <p>Fotografia do artista Fulano disponível nos tamanhos 30x40cm, 40x60cm e 50x100cm.</p>
+                    <button type="button">Tenho interesse</button>
+                </li>
+                <li>
+                    <h3>Borboleta</h3>
+                    <img src="./images/butterfly-g7f3546b64_1920.jpg" alt="borboleta pousada nas flores">
+                    <p>Fotografia do artista Fulano disponível nos tamanhos 30x40cm, 40x60cm e 50x100cm.</p>
+                    <button type="button">Tenho interesse</button>
+                </li>
+                <li>
+                    <h3>Mãos</h3>
+                    <img src="./images/hands-gc143a78ba_1920.png" alt="duas mãos se encontrando">
+                    <p>Desenho do artista Fulano disponível nos tamanhos 30x40cm, 40x60cm e 50x100cm.</p>
+                    <button type="button">Tenho interesse</button>
+                </li>
+                <li class="item-central">
+                    <h3>Lírios Amarelos</h3>
+                    <img src="./images/lilies-g19bcb21a4_1920.jpg" alt="lírios do campo">
+                    <p>Fotografia do artista Fulano disponível nos tamanhos 30x40cm, 40x60cm e 50x100cm.</p>
+                    <button type="button">Tenho interesse</button>
+                </li>
+                <li>
+                    <h3>Homem na Rua</h3>
+                    <img src="./images/street-gddeece843_1920.jpg" alt="homem parado na rua">
+                    <p>Fotografia do artista Fulano disponível nos tamanhos 30x40cm, 40x60cm e 50x100cm.</p>
+                    <button type="button">Tenho interesse</button>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="contato">
+        <div class="container">
+            <h2>Entre em Contato</h2>
+            <form>
+                <div class="form-campo">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome">
+                </div>
+                <div class="form-campo">
+                    <label for="telefone">Telefone:</label>
+                    <input type="tel" id="telefone" name="telefone">
+                </div>
+                <div class="form-campo">
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email">
+                </div>
+                <div class="form-campo">
+                    <label for="quadro-interesse">Quadro de interesse:</label>
+                    <input type="text" id="quadro-interesse" name="quadroDeInteresse">
+                </div>
+                <div class="form-campo">
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea id="mensagem" name="mensagem"></textarea>
+                </div>
+                    <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+    
+    <script src="./scripts/jquery.mask.min.js"></script>
+    <script src="./scripts/jquery.validate.min.js"></script>
+    <script src="./scripts/messages_pt_BR.min.js"></script>
+    <script src="./scripts/main.js"></script>
+    
+</body>
+</html>
